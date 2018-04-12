@@ -6,7 +6,7 @@ TwoFactorAuth.org
 [![Gitter](https://img.shields.io/gitter/room/2factorauth/twofactorauth.svg)](https://gitter.im/2factorauth/twofactorauth)
 [![Twitter](https://img.shields.io/badge/Twitter-@2faorg-blue.svg)](https://twitter.com/2faorg)
 
-A list of popular sites and whether or not they accept two factor auth.
+A list of popular sites and whether or not they can support SSO as a Service Provider (SP) or Identity Provider (IdP)
 
 ## The Goal
 
