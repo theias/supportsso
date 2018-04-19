@@ -8,3 +8,4 @@ ehthumbs.db
 Gemfile.lock
 .sass-cache
 .jekyll-metadata
+.sw?
