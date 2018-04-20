@@ -1,7 +1,11 @@
+- id: business
+  title: Business
+  icon: building
+
 - id: library
   title: Library
   icon: book
 
 - id: office
   title: Office
-  icon: building
+  icon: pencil

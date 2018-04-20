@@ -1,0 +1,8 @@
+websites:
+  - name: Gartner
+    url: https://gartner.com
+    sso: Yes
+    saml: Yes
+    img: gartner.png
+    twitter: gartner_inc
+    facebook: https://www.facebook.com/Gartner
