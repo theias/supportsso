@@ -12,7 +12,7 @@ The goal is to build a website ([SupportSSO.org](https://supportsso.org)) with a
 Single Sign On, as well as the methods that they provide.
 
 Our hope is to aid institutions who are deciding between alternative services based on their ability to integrate with
-the institutions Single Sign On strategy.  This can also serve as an indicator for the effort a site has put into security in general.
+the institution's Single Sign On policy.  This can also serve as an indicator for the effort a site has put into security in general.
 
 ## Contributing
 
