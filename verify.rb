@@ -4,10 +4,10 @@ require 'kwalify'
 @output = 0
 
 # YAML tags related to TFA
-@tfa_tags = {
-  # YAML tags for TFA Yes
-  true => %w[email hardware software sms phone doc],
-  # YAML tags for TFA No
+@sso_tags = {
+  # YAML tags for SSO Yes
+  true => %w[cas oauth radius saml shibboleth],
+  # YAML tags for SSO No
   false => %w[status twitter facebook email_address lang]
 }.freeze
 
@@ -84,10 +84,10 @@ begin
     imgs = Dir["img/#{section['id']}/*"]
 
     websites.each do |website|
-      @tfa_tags[!website['tfa']].each do |tag|
+      @sso_tags[!website['sso']].each do |tag|
         next if website[tag].nil?
         error("\'#{tag}\' should NOT be "\
-            "present when tfa: #{website['tfa'] ? 'true' : 'false'}.")
+            "present when sso: #{website['sso'] ? 'true' : 'false'}.")
       end
       test_img("img/#{section['id']}/#{website['img']}", website['name'],
                imgs)

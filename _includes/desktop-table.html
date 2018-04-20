@@ -7,11 +7,11 @@
     <tr>
       <th class="single line four wide"><h3>{{ section_title }}</h3></th>
       <th class="two wide">Docs</th>
-      <th class="two wide">SMS</th>
-      <th class="two wide">Phone Call</th>
-      <th class="two wide">Email</th>
-      <th class="two wide">Hardware Token</th>
-      <th class="two wide">Software Token</th>
+      <th class="two wide">CAS</th>
+      <th class="two wide">OAUTH</th>
+      <th class="two wide">Radius</th>
+      <th class="two wide">SAML</th>
+      <th class="two wide">shibboleth</th>
     </tr>
     </thead>
     <tbody class="jets-content">
@@ -38,7 +38,7 @@
              href="https://twitter.com/share?url={{site.url|cgi_escape}}&amp;text={{progress_tweet|replace:'TWITTERHANDLE',website.twitter|cgi_escape}}&amp;hashtags={{page.hash|cgi_escape}}"
              target="_blank"><i class="twitter icon"></i> {{page.link_progress}}</a>
         </td>
-      {% elsif website.tfa %}
+      {% elsif website.sso %}
         <td class="main positive">
           {% include row-title.html section=section_id website=website type='desktop' %}
         </td>
@@ -50,31 +50,31 @@
         </td>
 
         <td class="positive icon">
-          {% if website.sms %}
+          {% if website.cas %}
           <i class="checkmark large icon" title="SMS"></i>
           {% endif %}
         </td>
 
         <td class="positive icon">
-          {% if website.phone %}
+          {% if website.oauth %}
           <i class="checkmark large icon" title="Phone"></i>
           {% endif %}
         </td>
 
         <td class="positive icon">
-          {% if website.email %}
+          {% if website.radius %}
           <i class="checkmark large icon" title="Email"></i>
           {% endif %}
         </td>
 
         <td class="positive icon">
-          {% if website.hardware %}
+          {% if website.saml %}
           <i class="checkmark large icon" title="Hardware Token"></i>
           {% endif %}
         </td>
 
         <td class="positive icon">
-          {% if website.software %}
+          {% if website.shibboleth %}
           <i class="checkmark large icon" title="Software Token"></i>
           {% endif %}
         </td>

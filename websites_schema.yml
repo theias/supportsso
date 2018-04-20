@@ -18,7 +18,22 @@ mapping:
           "img":
             type: str
             required: yes
-          "tfa":
+          "radius":
+            type: bool
+            pattern: /true/
+          "saml":
+            type: bool
+            pattern: /true/
+          "oauth":
+            type: bool
+            pattern: /true/
+          "cas":
+            type: bool
+            pattern: /true/
+          "shibboleth":
+            type: bool
+            pattern: /true/
+          "sso":
             type: bool
             required: yes
           "software":
