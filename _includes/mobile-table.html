@@ -25,16 +25,16 @@
            target="_blank"><i class="twitter icon"></i> {{page.link_progress_mobile}}</a>
       </div>
     </div>
-    {% elsif website.tfa %}
+    {% elsif website.sso %}
     <div class="main positive">
       {% include row-title.html section=section_id website=website type='mobile' %}
       <p>
         Supported:
-        {% if website.sms %}SMS{% endif %}
-        {% if website.phone %}Phone{% endif %}
-        {% if website.email %}Email{% endif %}
-        {% if website.hardware %}Hardware{% endif %}
-        {% if website.software %}Software{% endif %}
+        {% if website.cas %}CAS{% endif %}
+        {% if website.shibboleth %}Shibboleth{% endif %}
+        {% if website.saml %}SAML{% endif %}
+        {% if website.oauth %}Oauth{% endif %}
+        {% if website.radius %}Radius{% endif %}
       </p>
       {% if website.doc %}
       <div class="button-group">

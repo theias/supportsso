@@ -1,0 +1,8 @@
+websites:
+  - name: HathiTrust
+    url: https://www.hathitrust.org/
+    sso: Yes
+    shibboleth: Yes
+    img: hathitrust.png
+    doc: https://www.hathitrust.org/shibboleth
+    twitter: hathitrust
