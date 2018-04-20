@@ -1,4 +1,4 @@
-Contributing to TwoFactorAuth.org
+Contributing to SupportSSO.org
 =======================
 
 All the data is managed through a series of [Yaml][yaml] files so it may be
@@ -58,8 +58,8 @@ everything for you.
 ## Site Criteria
 
 The following section contains rough criteria and explanations regarding
-what websites should be listed on twofactorauth.org. If one of the following
-criteria is met, it belongs on twofactorauth.org:
+what websites should be listed on supportsso.org. If one of the following
+criteria is met, it belongs on supportsso.org:
 
 1. **Personal Info/Image**: Any site that deals with personal info or a person's
    image. An example of a site with **Personal Info** would be their Amazon
@@ -99,9 +99,9 @@ id, using the `.yml` extension.
 ## New Sites
 
 First and foremost, make sure the new site meets our [definition
-requirements](#a-note-on-definitions) of Two Factor Auth.
+requirements](#a-note-on-definitions) of Support Single Sign On.
 
-If you are adding multiple sites to the TwoFactorAuth list, please create a new
+If you are adding multiple sites to the SupportSSO list, please create a new
 git branch for each website, and submit a separate pull request for each branch.
 More information regarding how to create new git branches can be found on
 [GitHub's Help Page](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/)
@@ -248,21 +248,21 @@ website. There are 4 ways to customize how it is displayed:
 
 ## A Note on Definitions
 
-A lot of people have different ideas of what constitutes Two Factor Auth and
+A lot of people have different ideas of what constitutes Single Sign On and
 what doesn't, so it stands to reason that we should clarify a bit. For the
-purposes of this site, Two Factor Auth is defined as any service provided as a
+purposes of this site, Single Sign On is defined as any service provided as a
 redundant layer for account *authentication*. Services that provide
 *authorization* redundancy are certainly appreciated, but should not be
-considered Two Factor Auth.
+considered Single Sign On.
 
 As an example, a site that prompts you for an authentication token following
-user login would be considered Two Factor Auth. A site that does not prompt you
+user login would be considered Single Sign On. A site that does not prompt you
 for a token upon login, but prompts you for a token when you try to perform a
-sensitive action would not be considered Two Factor Authentication.
+sensitive action would not be considered Single Sign On.
 
 For context, check out the discussion in issue [#242][242].
 
-[242]: https://github.com/2factorauth/twofactorauth/issues/242
+[242]: https://github.com/2factorauth/supportsso/issues/242
 [exclude]: /EXCLUSION.md
 [bundler]: http://bundler.io/
 [gemfile]: /Gemfile
