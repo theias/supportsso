@@ -1,6 +1,7 @@
 SupportSSO.org
 =================
 
+[![Build Status](https://travis-ci.org/theias/supportsso.svg)](https://travis-ci.org/theias/supportsso)
 [![License](https://img.shields.io/badge/license-mit-blue.svg?style=flat)](/LICENSE)
 [![Twitter](https://img.shields.io/badge/Twitter-@SupportSSO-blue.svg)](https://twitter.com/supportsso)
 
