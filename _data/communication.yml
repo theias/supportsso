@@ -1,0 +1,7 @@
+websites:
+  - name: MailChimp
+    url: https://mailchimp.com
+    sso: No
+    img: mailchimp.png
+    twitter: MailChimp
+    facebook: mailchimp

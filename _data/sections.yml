@@ -2,6 +2,10 @@
   title: Business
   icon: building
 
+- id: communication
+  title: Communication
+  icon: chat
+
 - id: library
   title: Library
   icon: book
@@ -9,3 +13,7 @@
 - id: office
   title: Office
   icon: pencil
+
+- id: task
+  title: Task
+  icon: tasks
