@@ -13,6 +13,13 @@ websites:
       saml: Yes
       doc: https://help.smartsheet.com/articles/2476141-configure-saml-sso
 
+    - name: Trello
+      url: https://trello.com
+      img: trello.png
+      sso: Yes
+      saml: Yes
+      doc: https://trello.com/sso-configuration
+
     - name: Wrike
       url: https://www.wrike.com/
       img: wrike.png
