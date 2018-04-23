@@ -5,15 +5,6 @@ websites:
       sso: Yes
       saml: Yes
       doc: https://asana.com/guide/help/premium/authentication
-      twitter: asana
-      facebook: asana
-
-    - name: Wrike
-      url: https://www.wrike.com/
-      img: wrike.png
-      sso: Yes
-      saml: Yes
-      doc: https://help.wrike.com/hc/en-us/articles/210324565-SSO-with-SAML-User-Guide
 
     - name: Smartsheet
       url: https://www.smartsheet.com/
@@ -21,3 +12,10 @@ websites:
       sso: Yes
       saml: Yes
       doc: https://help.smartsheet.com/articles/2476141-configure-saml-sso
+
+    - name: Wrike
+      url: https://www.wrike.com/
+      img: wrike.png
+      sso: Yes
+      saml: Yes
+      doc: https://help.wrike.com/hc/en-us/articles/210324565-SSO-with-SAML-User-Guide

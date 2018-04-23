@@ -1,14 +1,14 @@
 websites:
-  - name: MailChimp
-    url: https://mailchimp.com
-    img: mailchimp.png
-    sso: No
-    twitter: MailChimp
-    facebook: mailchimp
-
   - name: Constant Contact
     url: https://www.constantcontact.com
     img: constantcontact.png
     sso: Yes
     saml: Yes
     doc: http://developer.constantcontact.com/docs/account-management/sso.html
+
+  - name: MailChimp
+    url: https://mailchimp.com
+    img: mailchimp.png
+    sso: No
+    twitter: MailChimp
+    facebook: mailchimp
