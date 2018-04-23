@@ -5,7 +5,8 @@ SupportSSO.org
 [![License](https://img.shields.io/badge/license-mit-blue.svg?style=flat)](/LICENSE)
 [![Twitter](https://img.shields.io/badge/Twitter-@SupportSSO-blue.svg)](https://twitter.com/supportsso)
 
-A list of popular sites and whether or not they can support SSO as a Service Provider (SP) or Identity Provider (IdP)
+A list of popular sites and whether or not they can support SSO as a Service Provider (SP) or Identity Provider (IdP).
+Based on the very-handy [twofactorauth.org](https://github.com/2factorauth/twofactorauth).
 
 ## The Goal
 
