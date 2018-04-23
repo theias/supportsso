@@ -6,6 +6,10 @@
   title: Communication
   icon: chat
 
+- id: infrastructure
+  title: Infrastructure
+  icon: random
+
 - id: library
   title: Library
   icon: book

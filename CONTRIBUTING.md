@@ -93,6 +93,8 @@ and follow the template below:
   icon: icon-class
 ```
 
+New icons can be selected from semantic-ui.com: https://semantic-ui.com/elements/icon.html
+
 Then create a new file in the `_data` directory with the same name as your section's
 id, using the `.yml` extension.
 
