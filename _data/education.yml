@@ -1,0 +1,7 @@
+websites:
+  - name: Lynda
+    url: https://www.lynda.com
+    sso: Yes
+    saml: Yes
+    img: lynda.png
+    doc: https://www.lynda.com/IT-Infrastructure-tutorials/Single-sign-federation/415405/454325-4.html
