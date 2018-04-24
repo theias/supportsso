@@ -14,10 +14,6 @@
   title: Infrastructure
   icon: random
 
-- id: library
-  title: Library
-  icon: book
-
 - id: office
   title: Office
   icon: pencil
