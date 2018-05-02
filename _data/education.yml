@@ -1,4 +1,11 @@
 websites:
+  - name: CollegeSource
+    url: http://www.collegesource.com/
+    sso: No
+    img: collegesource.png
+    twitter: collegesource
+    facebook: collegeSource
+
   - name: HathiTrust
     url: https://www.hathitrust.org/
     sso: Yes
