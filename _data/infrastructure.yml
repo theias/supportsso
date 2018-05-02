@@ -5,3 +5,10 @@ websites:
      sso: Yes
      saml: "Yes"
      doc: https://documentation.meraki.com/zGeneral_Administration/Managing_Dashboard_Access/Configuring_SAML_Single_Sign-on_for_Dashboard
+
+   - name: JSA Technologies
+     url: http://www.jsatech.com
+     img: jsatech.png
+     sso: No
+     twitter: JSA_Tech
+     facebook: jsa.account.management
