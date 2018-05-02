@@ -2,6 +2,6 @@ websites:
   - name: Google G-Suite
     url: https://gsuite.google.com/
     sso: Yes
-    saml: Yes
+    saml: "Yes"
     img: google.png
     doc: https://support.google.com/a/answer/60224?hl=en

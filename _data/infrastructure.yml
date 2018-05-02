@@ -3,5 +3,5 @@ websites:
      url: https://meraki.cisco.com/
      img: meraki.png
      sso: Yes
-     saml: Yes
+     saml: "Yes"
      doc: https://documentation.meraki.com/zGeneral_Administration/Managing_Dashboard_Access/Configuring_SAML_Single_Sign-on_for_Dashboard

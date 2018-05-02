@@ -22,8 +22,8 @@ mapping:
             type: bool
             pattern: /true/
           "saml":
-            type: bool
-            pattern: /true/
+            type: str
+            enum: ["1.0", "2.0", "1.0, 2.0", "Yes", "No"]
           "oauth":
             type: bool
             pattern: /true/

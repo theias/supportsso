@@ -2,6 +2,6 @@ websites:
   - name: Gartner
     url: https://gartner.com
     sso: Yes
-    saml: Yes
+    saml: "Yes"
     img: gartner.png
     doc: /notes/gartner/

@@ -3,7 +3,7 @@ websites:
     url: https://www.constantcontact.com
     img: constantcontact.png
     sso: Yes
-    saml: Yes
+    saml: "Yes"
     doc: http://developer.constantcontact.com/docs/account-management/sso.html
 
   - name: MailChimp

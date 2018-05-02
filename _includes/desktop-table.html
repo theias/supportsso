@@ -68,7 +68,7 @@
         </td>
 
         <td class="positive icon">
-          {% if website.saml == true %}
+          {% if website.saml ~= /[yY]es/ %}
           <i class="checkmark large icon" title="Hardware Token"></i>
 	  {% elsif website.saml %}
 	  {{ website.saml }}
