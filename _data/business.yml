@@ -12,3 +12,10 @@ websites:
     saml: "Yes"
     img: gartner.png
     doc: /notes/gartner/
+
+  - name: JumpForward
+    url: http://www.jumpforward.com/
+    sso: No
+    img: jumpforward.png
+    twitter: jumpforward
+    facebook: JumpForward1
