@@ -34,3 +34,10 @@ websites:
     img: onbase.png
     twitter: onbase
     facebook: HylandSoftware
+
+  - name: Perpetual Technology Group
+    url: https://perpetualworks.com/
+    sso: No
+    img: perpetual.png
+    twitter: PerpetualTechGr
+    facebook: Perpetual-Technology-Group-352893868083620
