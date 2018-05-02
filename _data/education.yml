@@ -11,7 +11,8 @@ websites:
     sso: No
     img: iclicker.png
     twitter: iclicker
-    facebook: https://www.facebook.com/iclicker-84134164980/timeline/
+    facebook: https://www.facebook.com/iclicker-84134164980/timeline
+    doc: notes/iclicker/
 
   - name: Lynda
     url: https://www.lynda.com
