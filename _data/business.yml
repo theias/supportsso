@@ -1,4 +1,11 @@
 websites:
+  - name: EDGE10
+    url: https://www.edge10.com
+    sso: No
+    img: edge10.png
+    twitter: EDGE10Sports
+    facebook: Edge10Sports
+
   - name: Gartner
     url: https://gartner.com
     sso: Yes
