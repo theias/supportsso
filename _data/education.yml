@@ -6,6 +6,13 @@ websites:
     img: hathitrust.png
     doc: https://www.hathitrust.org/shibboleth
 
+  - name: iClicker
+    url: https://www.iclicker.com/
+    sso: No
+    img: iclicker.png
+    twitter: iclicker
+    facebook: https://www.facebook.com/iclicker-84134164980/timeline/
+
   - name: Lynda
     url: https://www.lynda.com
     sso: Yes
