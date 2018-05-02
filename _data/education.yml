@@ -6,6 +6,13 @@ websites:
     twitter: collegesource
     facebook: collegeSource
 
+  - name: GoReact
+    url: https://get.goreact.com/
+    sso: No
+    img: goreact.png
+    twitter: goreact
+    facebook: GoReactOfficial
+
   - name: HathiTrust
     url: https://www.hathitrust.org/
     sso: Yes
