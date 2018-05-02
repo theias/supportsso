@@ -19,3 +19,17 @@ websites:
     img: jumpforward.png
     twitter: jumpforward
     facebook: JumpForward1
+
+  - name: Tessitura Network
+    url: https://www.tessituranetwork.com
+    sso: No
+    img: tessitura.png
+    twitter: TessNetwork
+    facebook: tessnetwork
+
+  - name: Vendini
+    url: https://vendini.com/
+    sso: No
+    img: vendini.png
+    twitter: vendini
+    facebook: vendini.inc
