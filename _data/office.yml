@@ -1,7 +1,14 @@
 websites:
   - name: Google G-Suite
-    url: https://gsuite.google.com/
+    url: https://gsuite.google.com
     sso: Yes
     saml: "Yes"
     img: google.png
     doc: https://support.google.com/a/answer/60224?hl=en
+
+  - name: timetrade
+    url: https://www.timetrade.com
+    sso: No
+    img: timetrade.png
+    twitter: timetrade
+    facebook: TimeTrade
