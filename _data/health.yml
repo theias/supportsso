@@ -5,3 +5,10 @@ websites:
     img: silvercloudhealth.png
     twitter: SilverCloudH
     facebook: SilverCloudHealth
+
+  - name: TeleHealth Services
+    url: https://www.telehealth.com/
+    sso: No
+    img: telehealth.png
+    twitter: TeleHealth_Svcs
+    facebook: TeleHealthSvcs
