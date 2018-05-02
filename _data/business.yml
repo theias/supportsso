@@ -20,6 +20,13 @@ websites:
     twitter: jumpforward
     facebook: JumpForward1
 
+  - name: StartupTree
+    url: https://startuptree.co
+    sso: No
+    img: startuptree.png
+    twitter: startuptreeco
+    facebook: startuptreeco
+
   - name: Tessitura Network
     url: https://www.tessituranetwork.com
     sso: No
